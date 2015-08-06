@@ -37,6 +37,12 @@
  */
 @property (readonly, nonatomic, strong) NSHTTPURLResponse *response;
 
+///-----------------------------------------------------------------------------
+/// @name Custom request id for iKnow!
+///-----------------------------------------------------------------------------
+
+@property (nonatomic, copy) NSString *requestId;
+
 ///----------------------------------------------------------
 /// @name Managing And Checking For Acceptable HTTP Responses
 ///----------------------------------------------------------

@@ -118,6 +118,7 @@ static void AFSwizzleClassMethodWithClassAndSelectorUsingBlock(Class klass, SEL 
 @synthesize HTTPError = _HTTPError;
 @synthesize successCallbackQueue = _successCallbackQueue;
 @synthesize failureCallbackQueue = _failureCallbackQueue;
+@synthesize requestId = _requestId;
 @dynamic lock;
 @dynamic request;
 @dynamic response;
