@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073003EC1E39EDE800A5A723 /* RKManagedObjectStore_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 073003EA1E39EDC500A5A723 /* RKManagedObjectStore_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		073003ED1E39F34E00A5A723 /* RKManagedObjectStore_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 073003EA1E39EDC500A5A723 /* RKManagedObjectStore_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		073032101B7217C700623A20 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 073031E01B7217C700623A20 /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		073032111B7217C700623A20 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 073031E11B7217C700623A20 /* AFHTTPClient.m */; };
 		073032121B7217C700623A20 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 073031E21B7217C700623A20 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -601,6 +603,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		073003EA1E39EDC500A5A723 /* RKManagedObjectStore_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKManagedObjectStore_Private.h; sourceTree = "<group>"; };
 		073031E01B7217C700623A20 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		073031E11B7217C700623A20 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		073031E21B7217C700623A20 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -1209,6 +1212,7 @@
 				2597F99A15AF6DC400E547D7 /* RKRelationshipConnectionOperation.h */,
 				2597F99B15AF6DC400E547D7 /* RKRelationshipConnectionOperation.m */,
 				C0F11CE71908C7E60054AEA0 /* RKCoreData.h */,
+				073003EA1E39EDC500A5A723 /* RKManagedObjectStore_Private.h */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -1739,6 +1743,7 @@
 				25160E18145650490060A5C5 /* RKMapperOperation_Private.h in Headers */,
 				25160E1A145650490060A5C5 /* RKObjectMapping.h in Headers */,
 				25160E1C145650490060A5C5 /* RKMapping.h in Headers */,
+				073003ED1E39F34E00A5A723 /* RKManagedObjectStore_Private.h in Headers */,
 				25160E1D145650490060A5C5 /* RKMappingOperation.h in Headers */,
 				25160E21145650490060A5C5 /* RKMappingResult.h in Headers */,
 				25160E23145650490060A5C5 /* RKPropertyInspector.h in Headers */,
@@ -1858,6 +1863,7 @@
 				25160F79145655D10060A5C5 /* RKPropertyInspector+CoreData.h in Headers */,
 				25160F85145657650060A5C5 /* lcl_config_components_RK.h in Headers */,
 				25160F86145657650060A5C5 /* lcl_config_extensions_RK.h in Headers */,
+				073003EC1E39EDE800A5A723 /* RKManagedObjectStore_Private.h in Headers */,
 				25160F87145657650060A5C5 /* lcl_config_logger_RK.h in Headers */,
 				25160F901456576C0060A5C5 /* RKDotNetDateFormatter.h in Headers */,
 				25160F931456576C0060A5C5 /* RKLog.h in Headers */,
